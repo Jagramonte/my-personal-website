@@ -3,9 +3,61 @@
   <head>
     <title>My Personal Website</title>
     <link rel= "stylesheet" href="style.css" />
+    <style>
+        body {
+            background-image: url(/Users/josephagramonte/Documents/images-for-website/background-for-website.JPG);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+    <style>
+        .container {
+            display: flex;
+            align-items: center
+        }
+        .textbox {
+            border: 2px solid #000;
+            padding: 10px;
+            display: inline-block;
+            background-color: #f0f0f0;
+            max-width: 300px;
+            align-items: center;
+        }
+        .upper-right {
+            position: absolute;
+            top:15px;
+            right: 0;
+            margin: auto;
+        }
+        .middle-right {
+            position:absolute;
+            top: 230px;
+            right: 0px;
+            margin-bottom: auto;
+        }
+        .lower-right {
+            position: absolute;
+            right: 0px;
+            top:450px;
+        }
+    </style>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Welcome to My Website!</h1>
+    <div class="container">
+        <div>
+            <img src="/Users/josephagramonte/Documents/images-for-website/Prof photo.JPG" alt="Yours Truly">
+            <p class="textbox">Just a former Real Estate professional looking to change careers, travel the world and take amazing pictures. Enjoy some of my latest pics below.</p>
+        </div>
+    </div>
+    
     <script src="script.js"></script>
+    <img src="/Users/josephagramonte/Documents/images-for-website/sit-by-river.JPG" alt="BrotherBtTheRiver" />
+    <img src="/Users/josephagramonte/Documents/images-for-website/me-on-street.JPG" alt="MeOnTheStreets" />
+    <img src="/Users/josephagramonte/Documents/images-for-website/mom-hug.JPG" alt="Mom Hug" class="upper-right"/>
+    <img src="/Users/josephagramonte/Documents/images-for-website/sitting-on-edge.JPG" alt="SittingOnEdge" class="middle-right" />
+    <img src="/Users/josephagramonte/Documents/images-for-website/Me-riverside.JPG" alt="MeByTheRiver" class="lower-right"/>
+    <img src="/Users/josephagramonte/Documents/images-for-website/eiffel-tower.JPG" alt="eiffeltower" />
   </body>
 </html>
